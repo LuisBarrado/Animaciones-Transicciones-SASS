@@ -1,0 +1,153 @@
+$primary-color:grey;
+$secondary-color:darkred;
+
+body {
+    background-color:$primary-color;
+}
+h1,h2{
+    text-align: center;
+    color: $secondary-color;
+}
+
+ol{
+    list-style: none;
+    li{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 20%;
+    height:20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Minecraft{
+    animation-name: minecraft;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+@keyframes minecraft{
+0% {background:grey;}
+50% {background:lightgray;}
+100% {background: none;}
+}
+
+.SuperMario {
+    animation-name: supermario;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    position: relative;
+}
+
+@keyframes supermario{
+0% {left:0; right:0}
+25% {left:300px; right:0}
+50% {left:300px; right: 300px;}
+75% {left: 0%; right:300px }
+100% {left:0%; right: 0%;}    
+}
+
+.Pong {
+    animation-name: pong;
+    animation-duration: 10s;
+    animation-delay: 7s;
+    position: relative;
+}
+
+@keyframes pong{
+0% {left:0; right:0}
+25% {left: -300px;; right: 0;}
+50% {left:-300px; right: -300px;}
+75% {left: 0%; right:300px;}
+100% {left:0%; right: 0%;}    
+}
+
+.Zelda {
+    animation-name: zelda;
+    animation-duration: 10s;
+    animation-delay: 9s;
+    position: relative;
+    animation-timing-function: ease;
+}
+
+@keyframes zelda{
+0% {left:0; right:0;}
+10% {left:300px; right:0;}
+20% {left:300px; right: 300px;}
+30% {left: 0%; right:300px;}
+50% {left:0%; right:0%;}
+60% {left: -300px;; right: 0;}
+70% {left:-300px; right: -300px;}
+80% {left: 0%; right:300px;}
+100% {left:0%; right: 0%;}    
+}
+
+.GTA{
+    background-color: none;
+    transition: background-color 2s;
+}
+.GTA :hover {
+    background-color: lightgray;
+}
+
+
+.Candy{
+    width: 20%;
+    height:20%; 
+    transition: rotate 2s;
+}
+
+.Candy:hover {
+    rotate: 360deg;
+}
+
+
+.Wow{
+    width: 20%;
+    height: 20%;
+    transition: width 2s, height 2s;
+}
+
+.Wow:hover{
+    width: 60%;
+    height: 60%;
+}
+.Lol{
+    width: 20%;
+    height: 20%;
+    transition: width 2s, height 2s;
+}
+.Lol:hover{
+    width: 5%;
+    height: 5%;
+}
+.Witcher{
+    width: 20%;
+    height: 20%;
+    transition: width 2s;
+}
+
+.Witcher:hover{
+    width: 40%;
+    height: 20%;
+}
+
+.Portal{
+    width: 20%;
+    height: 20%;
+    transition: height 2s;
+}
+
+.Portal:hover{
+    width: 20%;
+    height: 5%;
+}

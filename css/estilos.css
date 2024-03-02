@@ -1,0 +1,330 @@
+body {
+  background-color: grey;
+}
+
+h1, h2 {
+  text-align: center;
+  color: darkred;
+}
+
+ol {
+  list-style: none;
+}
+ol li {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 20%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Minecraft {
+  -webkit-animation-name: minecraft;
+          animation-name: minecraft;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes minecraft {
+  0% {
+    background: grey;
+  }
+  50% {
+    background: lightgray;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@keyframes minecraft {
+  0% {
+    background: grey;
+  }
+  50% {
+    background: lightgray;
+  }
+  100% {
+    background: none;
+  }
+}
+.SuperMario {
+  -webkit-animation-name: supermario;
+          animation-name: supermario;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  position: relative;
+}
+
+@-webkit-keyframes supermario {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: 300px;
+    right: 0;
+  }
+  50% {
+    left: 300px;
+    right: 300px;
+  }
+  75% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+
+@keyframes supermario {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: 300px;
+    right: 0;
+  }
+  50% {
+    left: 300px;
+    right: 300px;
+  }
+  75% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+.Pong {
+  -webkit-animation-name: pong;
+          animation-name: pong;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  position: relative;
+}
+
+@-webkit-keyframes pong {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: -300px;
+    right: 0;
+  }
+  50% {
+    left: -300px;
+    right: -300px;
+  }
+  75% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+
+@keyframes pong {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: -300px;
+    right: 0;
+  }
+  50% {
+    left: -300px;
+    right: -300px;
+  }
+  75% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+.Zelda {
+  -webkit-animation-name: zelda;
+          animation-name: zelda;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  position: relative;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes zelda {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  10% {
+    left: 300px;
+    right: 0;
+  }
+  20% {
+    left: 300px;
+    right: 300px;
+  }
+  30% {
+    left: 0%;
+    right: 300px;
+  }
+  50% {
+    left: 0%;
+    right: 0%;
+  }
+  60% {
+    left: -300px;
+    right: 0;
+  }
+  70% {
+    left: -300px;
+    right: -300px;
+  }
+  80% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+
+@keyframes zelda {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  10% {
+    left: 300px;
+    right: 0;
+  }
+  20% {
+    left: 300px;
+    right: 300px;
+  }
+  30% {
+    left: 0%;
+    right: 300px;
+  }
+  50% {
+    left: 0%;
+    right: 0%;
+  }
+  60% {
+    left: -300px;
+    right: 0;
+  }
+  70% {
+    left: -300px;
+    right: -300px;
+  }
+  80% {
+    left: 0%;
+    right: 300px;
+  }
+  100% {
+    left: 0%;
+    right: 0%;
+  }
+}
+.GTA {
+  background-color: none;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.GTA :hover {
+  background-color: lightgray;
+}
+
+.Candy {
+  width: 20%;
+  height: 20%;
+  -webkit-transition: rotate 2s;
+  transition: rotate 2s;
+}
+
+.Candy:hover {
+  rotate: 360deg;
+}
+
+.Wow {
+  width: 20%;
+  height: 20%;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
+}
+
+.Wow:hover {
+  width: 60%;
+  height: 60%;
+}
+
+.Lol {
+  width: 20%;
+  height: 20%;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
+}
+
+.Lol:hover {
+  width: 5%;
+  height: 5%;
+}
+
+.Witcher {
+  width: 20%;
+  height: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.Witcher:hover {
+  width: 40%;
+  height: 20%;
+}
+
+.Portal {
+  width: 20%;
+  height: 20%;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+}
+
+.Portal:hover {
+  width: 20%;
+  height: 5%;
+}/*# sourceMappingURL=estilos.css.map */
